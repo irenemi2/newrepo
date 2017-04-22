@@ -1,0 +1,16 @@
+#!/bin/bash
+echo -e "1.addition\n2.sutraction\n3.multiply\n4.divide"
+echo -n "enter choice"
+read x
+case $x in
+1) echo "sum:" `expr $1 + $2`
+;;
+2) echo "differnce:" `expr $1 - $2`
+;;
+3) echo "product:" `expr $1 \* $2`
+;;
+4) echo "quotient:" `expr $1 / $2`
+;;
+*) echo "invalid:"
+;;
+esac

@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "enter a name"
+read name
+if [ -d "$name" ]
+then
+echo "directory"
+fi
+if [ -f "$name" ]
+then
+echo "file"
+fi
+
+

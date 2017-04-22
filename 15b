@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter string1:"
+read s1
+echo "enter string2:"
+read s2
+x="$s1$s2"
+echo $x
+echo $s1 | tr 'a-z' 'A-Z'
+echo $s2 | tr 'a-z' 'A-Z'
+

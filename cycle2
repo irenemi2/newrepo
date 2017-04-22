@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "currently logged user:$USER"
+echo "current shell:$SHELL"
+echo "home directory:$HOME"
+echo "os type :$OSTYPE"
+echo "current path:$PWD"
+echo "current working directory:`pwd`"
+echo "total no. of currently logged users:"
+users | wc -w
+

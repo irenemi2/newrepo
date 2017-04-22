@@ -1,0 +1,8 @@
+#!/bin/bash
+read op1
+read op2
+echo `expr $op1 + $op2`
+echo `expr $op1 - $op2`
+echo `expr $op1 \* $op2`
+echo `expr $op1 / $op2`
+

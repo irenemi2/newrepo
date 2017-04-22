@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+echo "addition:" `expr $1 + $2`
+echo "subtraction:" ` expr $1 - $2 `
+echo "multipy" ` expr $1 \* $2 `
+echo "divide :" ` expr $1 / $2 `
+

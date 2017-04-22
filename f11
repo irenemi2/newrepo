@@ -1,0 +1,5 @@
+#!/bin/bash
+tr 'aeiou' 'AEIOU' < "$1" > new
+cat new
+sed 'y/aeiou/AEIOU/' $1 > n
+cat n

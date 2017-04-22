@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "enter the name:"
+read name
+echo "enter the address:"
+read address
+echo "name is $name"
+echo "address is: $address"
+

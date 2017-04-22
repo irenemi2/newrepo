@@ -1,0 +1,5 @@
+#!/bin/bash
+head -10 $1 > new
+tail -10 $2 >> new
+cat new
+
