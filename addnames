@@ -1,0 +1,21 @@
+#!/bin/bash
+if [ $# -eq 2 ]
+then
+if [ -f "$1" ]
+then
+echo "ulist exists";
+c=$(grep -c "$2" "$1")
+if [ $c != 0 ]
+then
+echo "$2 in ulist"
+else
+echo "$2 not in ulist";
+echo "$2" >> "$1";cat <$1
+fi
+else 
+echo "ulist doesn't exist"
+fi
+else
+echo "invalid input"
+fi
+
